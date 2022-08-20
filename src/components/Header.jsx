@@ -21,8 +21,8 @@ import ListItem from '@material-ui/core/ListItem';
 
 
 const navigationLinks = [
-    {name: "About", href: "" },
-    {name: "Projects", href: "" },
+    {name: "About", href: "#about" },
+    {name: "Projects", href: "#projects" },
     {name: "Resume", href: "" },
 ];
 

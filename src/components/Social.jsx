@@ -9,9 +9,9 @@ import Link from '@material-ui/core/Link';
 
 
 const socialItems = [
-    {icon: GitHubIcon, url:""},
-    {icon: LinkedInIcon, url: ""},
-    {icon: CoffeeIcon, url:""}
+    {icon: GitHubIcon, url:"https://github.com/jackkayak"},
+    {icon: LinkedInIcon, url: "https://www.linkedin.com/in/jacktkay/"},
+    {icon: CoffeeIcon, url:"https://www.buymeacoffee.com/dashboard"}
 ]
 
 

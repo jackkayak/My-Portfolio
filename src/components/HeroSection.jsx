@@ -15,7 +15,7 @@ section: {
     height: "90vh",
     backgroundImage: "url(https://images.unsplash.com/photo-1510057622795-5c8122c2c665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)",
     backgroundSize: "cover",
-    backgroundPosition: "center",
+    position: 'relative',
 },
 content: {
     height: "100%",
@@ -31,7 +31,7 @@ export default function HeroSection() {
   const [shouldShow, setShouldShow] = useState(false);
   useEffect(() => setShouldShow(true), []);
     return (
-    <Paper className={styles.section}>
+    <Paper className={styles.section} id="about">
         <Container className={styles.container} maxWidth="md">
             <Grid className={styles.content} container justifyContent='space-between' alignItems="center">
 
