@@ -23,7 +23,7 @@ import ListItem from '@material-ui/core/ListItem';
 const navigationLinks = [
     {name: "About", href: "#about" },
     {name: "Projects", href: "#projects" },
-    {name: "Resume", href: "" },
+    {name: "Resume", href: "/JKResume.pdf" },
 ];
 
 const useStyles = makeStyles((theme) => ({

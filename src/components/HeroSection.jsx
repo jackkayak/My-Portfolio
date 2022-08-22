@@ -13,7 +13,7 @@ import Zoom from '@material-ui/core/Zoom';
 const useStyles = makeStyles((theme) => ({
 section: {
     height: "90vh",
-    backgroundImage: "url(https://images.unsplash.com/photo-1510057622795-5c8122c2c665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)",
+    backgroundImage: "url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)",
     backgroundSize: "cover",
     position: 'relative',
 },
@@ -24,6 +24,9 @@ content: {
 container: {
     height: "100%"
 },
+
+
+
 }));
 
 export default function HeroSection() {
@@ -38,10 +41,18 @@ export default function HeroSection() {
 
                 <Zoom in={shouldShow}>
                 <Grid item sm={8}>
-                    <Typography component="h1"  variant="h3">Hi, my name is Jack Kay and I am a junior front end developer based in Vancouver, WA.</Typography>
-                    <Typography component="h2" variant="h5">I design and build responsive websites and I am currently looking for employment</Typography>
-                    <Box my={3}>
-                    <Button href="mailto:jacktkay6@gmail.com" variant="outlined" color="secondary">Get in Touch!</Button>
+                    <Typography  component="h1"  variant="h3">Hi, my name is Jack Kay and I am a junior front end developer based in Vancouver, WA.</Typography>
+                    <Typography  component="h2" variant="h5">My goal is to help companies stand out in the digital era. We can learn a thing or two from eachother and ultimately design an interface that is cutting-edge yet accessible to all. </Typography>
+                    <Box my={4}>
+                    <Button 
+                    href="mailto:jacktkay6@gmail.com" 
+                    variant="outlined" 
+                    
+
+                color="secondary"
+                    >
+                        Get in Touch!
+                    </Button>
                     </Box>                
                 </Grid>
                 </Zoom>
