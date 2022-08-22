@@ -11,7 +11,7 @@ import Link from '@material-ui/core/Link';
 const socialItems = [
     {icon: GitHubIcon, url:"https://github.com/jackkayak"},
     {icon: LinkedInIcon, url: "https://www.linkedin.com/in/jacktkay/"},
-    {icon: CoffeeIcon, url:"https://www.buymeacoffee.com/dashboard"}
+    {icon: CoffeeIcon, url:"https://www.buymeacoffee.com/jacktkay62"}
 ]
 
 

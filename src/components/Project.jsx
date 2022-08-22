@@ -164,7 +164,7 @@ const projectsData = [
           },
           {
             icon: OpenInNewIcon,
-            href: "/",
+            href: "https://graceful-profiterole-d10136.netlify.app/",
           },
         ],
       },
