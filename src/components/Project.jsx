@@ -123,13 +123,17 @@ const projectsData = [
     {
         title: "Green.",
         description:
-          "business that promotes sustainable growth on corporate buildings. Created all photos on the site using an Artificial Intelligence bot. Business is completely made up, but wanted to experiement with UI design trends and practice my HTML and CSS. Coming out Thursday the 25th. Colors are green tan and orange with pretty realistic concepts of future buildings.",
+          "Created in Figma from original thoughts. All Art on website is from AI technology which creates art after given keywords. In addition to the electric car industry, we should focus on getting our current buildings more eco-friendly. The website was designed as if the company is still gathering investor attention. Only static home page at this time. Nav Link on the right will show full figma PDF to compare. Made for 1440px, unresponsive, will get to that eventually. PS. If you take my idea atleast give me 40% of the company. ",
         
-        tags: ["Figma", "HTML", "SASS"],
+        tags: ["Figma", "HTML", "CSS"],
         links: [
           {
             icon: GitHubIcon,
             href: "https://github.com/jackkayak/Green.",
+          },
+          {
+            icon: OpenInNewIcon,
+            href: "https://loquacious-bublanina-07a979.netlify.app/",
           },
         ],
       },
