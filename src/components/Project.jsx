@@ -121,15 +121,15 @@ export default function Projects() {
 
 const projectsData = [
     {
-        title: "Blog App",
+        title: "Green.",
         description:
-          "Be on the lookout for this project as I intend to create a bit more of an ambitious web app.",
+          "business that promotes sustainable growth on corporate buildings. Created all photos on the site using an Artificial Intelligence bot. Business is completely made up, but wanted to experiement with UI design trends and practice my HTML and CSS. Coming out Thursday the 25th. Colors are green tan and orange with pretty realistic concepts of future buildings.",
         
-        tags: ["React.js", "Node.js"],
+        tags: ["Figma", "HTML", "SASS"],
         links: [
           {
             icon: GitHubIcon,
-            href: "/",
+            href: "https://github.com/jackkayak/Green.",
           },
         ],
       },
